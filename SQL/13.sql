@@ -1,3 +1,4 @@
+
 SELECT NAME
 FROM  PEOPLE
 INNER JOIN STARS  ON  STARS.person_id = PEOPLE.id  and PEOPLE.name <> "Kevin Bacon" 
