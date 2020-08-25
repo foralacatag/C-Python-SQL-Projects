@@ -1,0 +1,4 @@
+SELECT NAME
+FROM  PEOPLE
+INNER JOIN STARS, MOVIES ON STARS.Movie_id = Movies.ID  and STARS.person_id = PEOPLE.id
+WHERE TITLE="Toy Story";
